@@ -1,0 +1,21 @@
+# Auto-detect text files and normalize to LF
+* text=auto
+
+# Explicitly set line endings for specific file types to LF
+*.py text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+
+# Treat binary files as binary (no line ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+

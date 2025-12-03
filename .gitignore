@@ -1,0 +1,31 @@
+# IDE files/
+.idea/
+.vscode/
+
+# Python cache and virtual environment files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Credentials and Tokens
+credentials.json
+emailsummarizer-e34f2-firebase-adminsdk-fbsvc-62530ef2de.json
+token.json
+
+# Node.js modules and lock files
+node_modules/
+package-lock.json
+
+# Local storage file
+email_summaries.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
